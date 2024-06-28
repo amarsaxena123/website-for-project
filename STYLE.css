@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f3ef;
+  }
+  
+  #nav {
+    width: 95%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+  }
+  
+  #nav>h3 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 50px;
+    margin-left: 5px;
+  }
+  
+  #main {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f3ef;
+  }
+  
+  #intro {
+    height: 65%;
+    width: 100%;
+  }
+  
+  #intro h1 {
+    padding: 20PX 40PX;
+    font-size: 120px;
+  }
+  
+  #intro-1 {
+    font-size: 30px;
+    padding: 0PX 40PX;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #hero-img {
+    height: 80%;
+    width: 100%;
+    background-image: url(IMG/6458a6db645ec6a527000cfa_home-hero-p-1080.webp);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #About {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #About {
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+  
+  #About-part1 {
+    width: 80%;
+    height: 100%;
+    padding-left: 70px;
+    padding-right: 30px;
+  
+  }
+  
+  #About-part1 h2 {
+    font-size: 90px;
+    line-height: 90px;
+    padding-top: 25px;
+  }
+  
+  #About-me {
+    width: 50%;
+    height: 90%;
+    font-size: 22px;
+  }
+  
+  #About-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #About-me h2 {
+    padding-left: 50px;
+    height: 100%;
+    border-left: 2px solid black;
+  }
+  
+  #icon {
+    padding-left: 50px;
+    height: 1%;
+    border-left: 2px solid black;
+  }
+  
+  #icon>i {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+  }
+  
+  #work {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding: 50px 0px;
+    border-bottom: 2px solid black;
+  }
+  
+  #work-part-1 {
+    width: 35%;
+    height: 100%;
+  }
+  
+  #work-part-1 {
+    display: flex;
+    padding: 10px 50px;
+    border-right: 2px solid black;
+    justify-content: space-between;
+  }
+  
+  #work-part-1>i {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  #work-part-1>h2 {
+    font-size: 30px;
+    font-weight: 600;
+  
+  }
+  
+  #work-mini-part-1 {
+    display: flex;
+    padding: 65px 15px;
+  }
+  
+  #work-mini-part-1 {
+    border-bottom: 2px solid black;
+  }
+  
+  #work-mini-part-2 {
+    display: flex;
+    padding: 44px 15px;
+  }
+  
+  #work-part-2 {
+    width: 65%;
+    height: 100%;
+  }
+  
+  #work-mini-part-2 {
+    display: flex;
+  }
+  
+  #work-mini-1-part-1 {
+    padding: 20px;
+    align-items: center;
+  }
+  
+  #work-mini-1-part-1>h2 {
+    font-size: 40px;
+  }
+  
+  #work-mini-1-part-1>p {
+    font-size: 23px;
+  }
+  
+  #work-mini-1-part-2 {
+    padding: 20px;
+    align-items: center;
+  }
+  
+  #work-mini-1-part-2 {
+    border-left: 2px solid black;
+  }
+  
+  #work-mini-1-part-2>h2 {
+    font-size: 40px;
+  }
+  
+  #work-mini-1-part-2>p {
+    font-size: 24px;
+  }
+  
+  #work-mini-2-part-1 {
+    align-items: center;
+    padding: 10px 60px;
+  }
+  
+  #work-mini-2-part-1>h2 {
+    font-size: 40px;
+  }
+  
+  #work-mini-2-part-1>p {
+    font-size: 20px;
+  }
+  
+  #work-mini-2-part-2 {
+    padding: 20px;
+    align-items: center;
+    padding-left: 70px;
+  }
+  
+  #work-mini-2-part-2 {
+    border-left: 2px solid black;
+  }
+  
+  #work-mini-2-part-2>h2 {
+    font-size: 40px;
+  }
+  
+  #work-mini-2-part-2>p {
+    font-size: 23px;
+  }
+  
+  #contenar {
+    width: 100%;
+    height: 25%;
+    font-size: 99px;
+    font-weight: 700;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  #hero-img-2 {
+    width: 100%;
+    height: 90%;
+    background-image: url(IMG/bard.webp);
+    background-position: center;
+  }
+  
+  #camera {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin: 20px 0px;
+  }
+  
+  #camera-part-1 {
+    width: 60%;
+    height: 30%;
+    font-size: 100px;
+  }
+  
+  #camera-part-2 {
+    width: 40%;
+    height: 30%;
+    font-size: 25px;
+    padding: 20px;
+  
+  }
+  
+  #camera-part-3 {
+    display: flex;
+  }
+  
+  #camera-part-3>h3 {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px;
+    gap: 10px;
+  }
+  
+  #hero-img-3 {
+    width: 100%;
+    height: 90%;
+    background-image: url(IMG/tv.webp);
+    background-position: center;
+  }
+  
+  #noise {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin: 20px 0px;
+  }
+  
+  #noise-part-1 {
+    width: 60%;
+    height: 30%;
+    font-size: 100px;
+  }
+  
+  #noise-part-2 {
+    width: 40%;
+    height: 30%;
+    font-size: 25px;
+    padding: 20px;
+  
+  }
+  
+  #hero-img-4 {
+    width: 100%;
+    height: 90%;
+    background-image: url(IMG/hath.webp);
+    background-position: center;
+  }
+  
+  #robot {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin: 30px 0px;
+  }
+  
+  #robot {
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+  
+  #robot-part-1 {
+    width: 60%;
+    height: 30%;
+    font-size: 100px;
+  
+  }
+  
+  #robot-part-2 {
+    width: 40%;
+    height: 30%;
+    font-size: 25px;
+    padding: 20px;
+  
+  }
+  #introdacsan{
+    width: 100%;
+    height: 150%;
+    display: flex ;
+  }
+  
+  .hero-img-5{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-top: 25px;
+  }
+  .hero-img-5 >img{
+    width: 70px ;
+    height: 70px;
+    border-radius: 50px;
+  }
+  #work-mini-1-part-1 >h3{
+    font-weight: 500;
+  
+  }
+  
+  #introdacsan{
+    width: 100%;
+    height: 120%;
+    display: flex;
+    padding: 50px 0px;
+  
+  }
+  
+  #introdacsan-part-1 {
+    width: 40%;
+    height: 100%;
+  }
+  
+  #introdacsan-part-1{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+  }
+  #introdacsan-part-1{
+    height: 145%;
+   border-right: 2px solid black;
+  }
+  #introdacsan-part-1>i {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  #introdacsan-part-1>h2 {
+    font-size: 30px;
+    font-weight: 600;
+  
+  }
+  
+  #introdacsan-mini-part-1 {
+    display: flex;
+    padding: 65px 15px;
+  }
+  
+  #introdacsan-mini-part-1 {
+    width: 95%;
+    border-bottom: 2px solid black;
+  }
+  
+  #introdacsan-mini-part-2 {
+    display: flex;
+    padding: 44px 15px;
+  }
+  
+  #introdacsan-part-2 {
+    width: 65%;
+    height: 100%;
+  }
+  
+  #work-mini-part-2 {
+    display: flex;
+  }
+  
+  #introdacsan-mini-1-part-1 {
+    padding:  8px 40px;
+    align-items: center;
+  }
+  
+  #introdacsan-mini-1-part-1>h2 {
+    font-size: 40px;
+  }
+  
+  #introdacsan-mini-1-part-1>h3{
+   font-weight: 500;
+  }
+  
+  #introdacsan-mini-1-part-2 {
+    padding: 8px 40px
+  }
+  
+  #introdacsan-mini-1-part-2 {
+    border-left: 2px solid black;
+  }
+  
+  #introdacsan-mini-1-part-2>h2 {
+    font-size: 40px;
+  }
+  
+  #introdacsan-mini-1-part-2>h3 {
+    font-weight: 500;
+  }
+  
+  #introdacsan-mini-2-part-1 {
+    align-items: center;
+    padding: 2px 25px;
+  }
+  
+  #introdacsan-mini-2-part-1>h2 {
+    font-size: 40px;
+  }
+  
+  #introdacsan-mini-2-part-1>h3 {
+    font-weight: 500;
+  }
+  
+  #introdacsan-mini-2-part-2 {
+  
+    align-items: center;
+    padding: 2px 50px ;
+  }
+  
+  #introdacsan-mini-2-part-2 {
+    border-left: 2px solid black;
+  }
+  
+  #introdacsan-mini-2-part-2>h2 {
+    font-size: 40px;
+  }
+  #work-mini-2-part-2 >h3{
+    font-weight: 500;
+  }
+  
+  
